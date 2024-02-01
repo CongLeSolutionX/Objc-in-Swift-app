@@ -12,10 +12,11 @@
 
 @interface MyObjectiveCClass : NSObject
 
-@property (nonatomic, strong) NSString *name;
-@property (nonatomic, assign) NSInteger age;
+@property (nonatomic, readonly) NSInteger readOnlyOutside;
+@property (nonatomic) NSInteger readWriteOutside;
 
-- (instancetype)initWithName:(NSString *)name age:(NSInteger)age;
+- (instancetype)initWithReadOnlyValue:(NSInteger)readOnlyValue readWriteValue:(NSInteger)readWriteValue;
+- (void)updateReadOnlyValue:(NSInteger)newValue;
 
 @end
 

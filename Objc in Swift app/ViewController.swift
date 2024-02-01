@@ -13,13 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         super.view.backgroundColor = .yellow
         
-        self.useObjectiveCClass()
-        self.useMySwiftClass()
-    }
-    
-    func useObjectiveCClass() {
-        let objCObject = MyObjectiveCClass(name: "John Doe", age: 30)
-        print("Name: \(String(describing: objCObject?.name)), Age: \(String(describing: objCObject?.age))")
+//        self.useMySwiftClass()
+        self.useMiddleLayerObjcClass()
     }
     
     func useMySwiftClass() {
@@ -36,6 +31,11 @@ class ViewController: UIViewController {
 
         instance.updateReadOnlyValue(newValue: 30) // Allowed, changes the value from 5 to 30
         print(instance.readOnlyOutside) // Allowed, print 30
+    }
+    
+    func useMiddleLayerObjcClass() {
+        let instance = MiddleLayer()
+        instance.performAction()
     }
 }
 

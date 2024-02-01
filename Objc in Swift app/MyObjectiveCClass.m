@@ -7,15 +7,25 @@
 
 #import "MyObjectiveCClass.h"
 
+@interface MyObjectiveCClass ()
+
+@property (nonatomic, readwrite) NSInteger readOnlyOutside; // Private readwrite redeclaration
+
+@end
+
 @implementation MyObjectiveCClass
 
-- (instancetype)initWithName:(NSString *)name age:(NSInteger)age {
+- (instancetype)initWithReadOnlyValue:(NSInteger)readOnlyValue readWriteValue:(NSInteger)readWriteValue {
     self = [super init];
     if (self) {
-        _name = name;
-        _age = age;
+        _readOnlyOutside = readOnlyValue;
+        _readWriteOutside = readWriteValue;
     }
     return self;
+}
+
+- (void)updateReadOnlyValue:(NSInteger)newValue {
+    _readOnlyOutside = newValue;
 }
 
 @end
