@@ -13,8 +13,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         super.view.backgroundColor = .yellow
         
-        
-        // Call the function
         self.useObjectiveCClass()
     }
     
