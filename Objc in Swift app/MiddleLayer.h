@@ -12,8 +12,8 @@
 
 @interface MiddleLayer : NSObject
 
-// Declare any properties or methods here
 - (void)performAction;
+- (void)demoDelegatioInObjC;
 
 @end
 

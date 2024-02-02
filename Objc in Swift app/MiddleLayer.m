@@ -8,6 +8,9 @@
 #import "MiddleLayer.h"
 #import "MyObjectiveCClass.h"
 
+#import "TaskManager.h"
+#import "TaskHandler.h"
+
 @implementation MiddleLayer
 
 // Implement the methods here
@@ -27,4 +30,13 @@
     NSLog(@"%ld", (long)instance.readOnlyOutside); // Allowed, prints 30
 }
 
+
+- (void)demoDelegatioInObjC {
+    TaskManager *taskManager = [[TaskManager alloc] init];
+    TaskHandler *taskHandler = [[TaskHandler alloc] init];
+    
+    taskManager.delegate = taskHandler;  // Set the delegate
+    
+    [taskManager performTask]; // Perform the task
+}
 @end

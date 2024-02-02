@@ -14,6 +14,11 @@
 		4C01DCD12B6B47DC0017CC04 /* MyObjectiveCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01DCD02B6B47DC0017CC04 /* MyObjectiveCClass.m */; };
 		4C01DCD42B6B5E6E0017CC04 /* MySwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01DCD32B6B5E6E0017CC04 /* MySwiftClass.swift */; };
 		4C01DCD62B6BC9C10017CC04 /* MiddleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01DCD52B6BC9C10017CC04 /* MiddleLayer.m */; };
+		4C01DCD92B6BCD180017CC04 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01DCD82B6BCD180017CC04 /* TaskManager.swift */; };
+		4C01DCDB2B6BCD470017CC04 /* TaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01DCDA2B6BCD470017CC04 /* TaskHandler.swift */; };
+		4C01DCE42B6C3EDC0017CC04 /* TaskHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01DCE32B6C3EDC0017CC04 /* TaskHandler.m */; };
+		4C01DCE62B6C3F170017CC04 /* TaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01DCE52B6C3F170017CC04 /* TaskManager.m */; };
+		4C01DCE82B6C42AB0017CC04 /* SingletonInSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01DCE72B6C42AB0017CC04 /* SingletonInSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,14 @@
 		4C01DCD32B6B5E6E0017CC04 /* MySwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftClass.swift; sourceTree = "<group>"; };
 		4C01DCD52B6BC9C10017CC04 /* MiddleLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiddleLayer.m; sourceTree = "<group>"; };
 		4C01DCD72B6BC9CC0017CC04 /* MiddleLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiddleLayer.h; sourceTree = "<group>"; };
+		4C01DCD82B6BCD180017CC04 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		4C01DCDA2B6BCD470017CC04 /* TaskHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHandler.swift; sourceTree = "<group>"; };
+		4C01DCE02B6C3E6B0017CC04 /* TaskDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskDelegate.h; sourceTree = "<group>"; };
+		4C01DCE12B6C3E900017CC04 /* TaskManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskManager.h; sourceTree = "<group>"; };
+		4C01DCE22B6C3EAF0017CC04 /* TaskHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskHandler.h; sourceTree = "<group>"; };
+		4C01DCE32B6C3EDC0017CC04 /* TaskHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskHandler.m; sourceTree = "<group>"; };
+		4C01DCE52B6C3F170017CC04 /* TaskManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskManager.m; sourceTree = "<group>"; };
+		4C01DCE72B6C42AB0017CC04 /* SingletonInSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonInSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +75,42 @@
 			isa = PBXGroup;
 			children = (
 				4C01DCBB2B6AFBE50017CC04 /* AppDelegate.swift */,
+				4C01DCBD2B6AFBE50017CC04 /* SceneDelegate.swift */,
+				4C01DCBF2B6AFBE50017CC04 /* ViewController.swift */,
 				4C01DCCF2B6B47DB0017CC04 /* Objc in Swift app-Bridging-Header.h */,
 				4C01DCD22B6B480C0017CC04 /* MyObjectiveCClass.h */,
 				4C01DCD02B6B47DC0017CC04 /* MyObjectiveCClass.m */,
-				4C01DCD52B6BC9C10017CC04 /* MiddleLayer.m */,
 				4C01DCD72B6BC9CC0017CC04 /* MiddleLayer.h */,
-				4C01DCBD2B6AFBE50017CC04 /* SceneDelegate.swift */,
-				4C01DCBF2B6AFBE50017CC04 /* ViewController.swift */,
+				4C01DCD52B6BC9C10017CC04 /* MiddleLayer.m */,
+				4C01DCE72B6C42AB0017CC04 /* SingletonInSwift.swift */,
 				4C01DCD32B6B5E6E0017CC04 /* MySwiftClass.swift */,
+				4C01DCDD2B6C3E480017CC04 /* DelegateInObjC */,
+				4C01DCDC2B6BCD670017CC04 /* DelegationInSwift */,
 				4C01DCC42B6AFBE70017CC04 /* Assets.xcassets */,
 				4C01DCC92B6AFBE70017CC04 /* Info.plist */,
 			);
 			path = "Objc in Swift app";
+			sourceTree = "<group>";
+		};
+		4C01DCDC2B6BCD670017CC04 /* DelegationInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4C01DCD82B6BCD180017CC04 /* TaskManager.swift */,
+				4C01DCDA2B6BCD470017CC04 /* TaskHandler.swift */,
+			);
+			path = DelegationInSwift;
+			sourceTree = "<group>";
+		};
+		4C01DCDD2B6C3E480017CC04 /* DelegateInObjC */ = {
+			isa = PBXGroup;
+			children = (
+				4C01DCE02B6C3E6B0017CC04 /* TaskDelegate.h */,
+				4C01DCE12B6C3E900017CC04 /* TaskManager.h */,
+				4C01DCE52B6C3F170017CC04 /* TaskManager.m */,
+				4C01DCE22B6C3EAF0017CC04 /* TaskHandler.h */,
+				4C01DCE32B6C3EDC0017CC04 /* TaskHandler.m */,
+			);
+			path = DelegateInObjC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +185,14 @@
 			files = (
 				4C01DCD62B6BC9C10017CC04 /* MiddleLayer.m in Sources */,
 				4C01DCD12B6B47DC0017CC04 /* MyObjectiveCClass.m in Sources */,
+				4C01DCE62B6C3F170017CC04 /* TaskManager.m in Sources */,
+				4C01DCE42B6C3EDC0017CC04 /* TaskHandler.m in Sources */,
 				4C01DCC02B6AFBE50017CC04 /* ViewController.swift in Sources */,
+				4C01DCE82B6C42AB0017CC04 /* SingletonInSwift.swift in Sources */,
 				4C01DCBC2B6AFBE50017CC04 /* AppDelegate.swift in Sources */,
 				4C01DCD42B6B5E6E0017CC04 /* MySwiftClass.swift in Sources */,
+				4C01DCDB2B6BCD470017CC04 /* TaskHandler.swift in Sources */,
+				4C01DCD92B6BCD180017CC04 /* TaskManager.swift in Sources */,
 				4C01DCBE2B6AFBE50017CC04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,11 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         super.view.backgroundColor = .yellow
-        
+
 //        self.useMySwiftClass()
-        self.useMiddleLayerObjcClass()
+//        self.useMiddleLayerObjcClass()
+//        self.demoDelegatioInSwift()
+//        self.demoDelegationInObjC()
+
+         SingletonInSwift.shared.doSingletonthing()
     }
-    
+
     func useMySwiftClass() {
         let instance = MySwiftClass(readOnlyValue: 5, readWriteValue: 10)
 
@@ -32,10 +36,23 @@ class ViewController: UIViewController {
         instance.updateReadOnlyValue(newValue: 30) // Allowed, changes the value from 5 to 30
         print(instance.readOnlyOutside) // Allowed, print 30
     }
-    
+
     func useMiddleLayerObjcClass() {
         let instance = MiddleLayer()
         instance.performAction()
     }
-}
 
+    func demoDelegatioInSwift() {
+        let taskManager = TaskManager()
+        let taskHandler = TaskHandler()
+
+        taskManager.delegate = taskHandler // set the delegate
+
+        taskManager.performTask() // perform the task
+    }
+
+    func demoDelegationInObjC() {
+        let instance = MiddleLayer()
+        instance.demoDelegatioInObjC()
+    }
+}
