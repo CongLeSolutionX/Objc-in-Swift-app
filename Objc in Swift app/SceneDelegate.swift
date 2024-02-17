@@ -14,7 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        
+        print(windowScene.isFullScreen) // This value is false right now, need a way to change it to true
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = UIKitViewController() // Replace with your view controller
         window?.makeKeyAndVisible()
