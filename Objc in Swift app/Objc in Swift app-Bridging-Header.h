@@ -8,3 +8,5 @@
 #import "SingleResponsibilityPrinciple.h"
 #import "OpenClosePrinciple.h"
 #import "LiskovSubstitutionPrinciple.h"
+#import "InterfaceSegregationPrinciple.h"
+#import "DependencyInversionPrinciple.h"

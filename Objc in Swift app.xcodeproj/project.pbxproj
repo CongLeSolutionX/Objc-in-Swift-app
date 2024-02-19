@@ -36,6 +36,13 @@
 		4CE4D70C2B83D1CC0012970F /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D70B2B83D1CC0012970F /* Bird.m */; };
 		4CE4D70F2B83D1E60012970F /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D70E2B83D1E60012970F /* Penguin.m */; };
 		4CE4D7122B83D4290012970F /* FlyingBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D7112B83D4290012970F /* FlyingBird.m */; };
+		4CE4D71C2B83D6BE0012970F /* Programmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D71B2B83D6BE0012970F /* Programmer.m */; };
+		4CE4D71E2B83D6E10012970F /* Designer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D71D2B83D6E10012970F /* Designer.m */; };
+		4CE4D7212B83D74B0012970F /* InterfaceSegregationPrinciple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D7202B83D74B0012970F /* InterfaceSegregationPrinciple.m */; };
+		4CE4D7272B83D9540012970F /* CommunicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D7262B83D9540012970F /* CommunicationManager.m */; };
+		4CE4D7292B83D9650012970F /* MessageSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D7282B83D9650012970F /* MessageSender.m */; };
+		4CE4D72D2B83DA520012970F /* DependencyInversionPrinciple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D72C2B83DA520012970F /* DependencyInversionPrinciple.m */; };
+		4CE4D7302B83DA9C0012970F /* MockMessageSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D72F2B83DA9C0012970F /* MockMessageSender.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +112,24 @@
 		4CE4D70E2B83D1E60012970F /* Penguin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
 		4CE4D7102B83D4200012970F /* FlyingBird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyingBird.h; sourceTree = "<group>"; };
 		4CE4D7112B83D4290012970F /* FlyingBird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingBird.m; sourceTree = "<group>"; };
+		4CE4D7142B83D6340012970F /* Coding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coding.h; sourceTree = "<group>"; };
+		4CE4D7152B83D63D0012970F /* Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
+		4CE4D7162B83D6460012970F /* Designing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Designing.h; sourceTree = "<group>"; };
+		4CE4D7172B83D64E0012970F /* Programmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Programmer.h; sourceTree = "<group>"; };
+		4CE4D7182B83D6610012970F /* Designer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Designer.h; sourceTree = "<group>"; };
+		4CE4D71B2B83D6BE0012970F /* Programmer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Programmer.m; sourceTree = "<group>"; };
+		4CE4D71D2B83D6E10012970F /* Designer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Designer.m; sourceTree = "<group>"; };
+		4CE4D71F2B83D7400012970F /* InterfaceSegregationPrinciple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceSegregationPrinciple.h; sourceTree = "<group>"; };
+		4CE4D7202B83D74B0012970F /* InterfaceSegregationPrinciple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceSegregationPrinciple.m; sourceTree = "<group>"; };
+		4CE4D7232B83D92D0012970F /* MessageSending.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSending.h; sourceTree = "<group>"; };
+		4CE4D7242B83D9380012970F /* MessageSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSender.h; sourceTree = "<group>"; };
+		4CE4D7252B83D9430012970F /* CommunicationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommunicationManager.h; sourceTree = "<group>"; };
+		4CE4D7262B83D9540012970F /* CommunicationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommunicationManager.m; sourceTree = "<group>"; };
+		4CE4D7282B83D9650012970F /* MessageSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSender.m; sourceTree = "<group>"; };
+		4CE4D72B2B83DA460012970F /* DependencyInversionPrinciple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DependencyInversionPrinciple.h; sourceTree = "<group>"; };
+		4CE4D72C2B83DA520012970F /* DependencyInversionPrinciple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DependencyInversionPrinciple.m; sourceTree = "<group>"; };
+		4CE4D72E2B83DA910012970F /* MockMessageSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockMessageSender.h; sourceTree = "<group>"; };
+		4CE4D72F2B83DA9C0012970F /* MockMessageSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockMessageSender.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,9 +226,11 @@
 		4C4D08642B7FA78E000EFCA1 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
-				4CE4D6FE2B83CCA70012970F /* Liskov Substitution Principle (LSP) */,
-				4CE4D6ED2B8344A60012970F /* Open Close Principle (OCP) */,
 				4CE4D6DD2B833CAE0012970F /* Single Responsibility Principle(SRP) */,
+				4CE4D6ED2B8344A60012970F /* Open Close Principle (OCP) */,
+				4CE4D6FE2B83CCA70012970F /* Liskov Substitution Principle (LSP) */,
+				4CE4D7132B83D6020012970F /* Interface Segregation Principle (ISP) */,
+				4CE4D7222B83D8CA0012970F /* Dependency Inversion Principle (DIP) */,
 				4C4D08622B7FA758000EFCA1 /* MyObjectiveCClass */,
 				4C4D08632B7FA762000EFCA1 /* MiddleLayer */,
 				4C01DCDD2B6C3E480017CC04 /* DelegateInObjC */,
@@ -289,6 +316,54 @@
 			path = Bird;
 			sourceTree = "<group>";
 		};
+		4CE4D7132B83D6020012970F /* Interface Segregation Principle (ISP) */ = {
+			isa = PBXGroup;
+			children = (
+				4CE4D71F2B83D7400012970F /* InterfaceSegregationPrinciple.h */,
+				4CE4D7202B83D74B0012970F /* InterfaceSegregationPrinciple.m */,
+				4CE4D7142B83D6340012970F /* Coding.h */,
+				4CE4D7152B83D63D0012970F /* Testing.h */,
+				4CE4D7162B83D6460012970F /* Designing.h */,
+				4CE4D7172B83D64E0012970F /* Programmer.h */,
+				4CE4D71B2B83D6BE0012970F /* Programmer.m */,
+				4CE4D7182B83D6610012970F /* Designer.h */,
+				4CE4D71D2B83D6E10012970F /* Designer.m */,
+			);
+			path = "Interface Segregation Principle (ISP)";
+			sourceTree = "<group>";
+		};
+		4CE4D7222B83D8CA0012970F /* Dependency Inversion Principle (DIP) */ = {
+			isa = PBXGroup;
+			children = (
+				4CE4D72B2B83DA460012970F /* DependencyInversionPrinciple.h */,
+				4CE4D72C2B83DA520012970F /* DependencyInversionPrinciple.m */,
+				4CE4D7232B83D92D0012970F /* MessageSending.h */,
+				4CE4D7252B83D9430012970F /* CommunicationManager.h */,
+				4CE4D7262B83D9540012970F /* CommunicationManager.m */,
+				4CE4D72A2B83DA300012970F /* MessageSender */,
+				4CE4D7312B83DD190012970F /* MockMessageSender */,
+			);
+			path = "Dependency Inversion Principle (DIP)";
+			sourceTree = "<group>";
+		};
+		4CE4D72A2B83DA300012970F /* MessageSender */ = {
+			isa = PBXGroup;
+			children = (
+				4CE4D7242B83D9380012970F /* MessageSender.h */,
+				4CE4D7282B83D9650012970F /* MessageSender.m */,
+			);
+			path = MessageSender;
+			sourceTree = "<group>";
+		};
+		4CE4D7312B83DD190012970F /* MockMessageSender */ = {
+			isa = PBXGroup;
+			children = (
+				4CE4D72E2B83DA910012970F /* MockMessageSender.h */,
+				4CE4D72F2B83DA9C0012970F /* MockMessageSender.m */,
+			);
+			path = MockMessageSender;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -362,9 +437,13 @@
 			files = (
 				4CE4D70C2B83D1CC0012970F /* Bird.m in Sources */,
 				4CE4D6FA2B8345E40012970F /* Open Close Principle.m in Sources */,
+				4CE4D7272B83D9540012970F /* CommunicationManager.m in Sources */,
 				4CE4D6FD2B83469C0012970F /* Triangle.m in Sources */,
 				4CE4D6EC2B8343270012970F /* Single Responsibility Principle.m in Sources */,
 				4CE4D6E02B833DEB0012970F /* UserProfileDisplayer.m in Sources */,
+				4CE4D7302B83DA9C0012970F /* MockMessageSender.m in Sources */,
+				4CE4D71C2B83D6BE0012970F /* Programmer.m in Sources */,
+				4CE4D71E2B83D6E10012970F /* Designer.m in Sources */,
 				4C01DCD62B6BC9C10017CC04 /* MiddleLayer.m in Sources */,
 				4CE4D6F32B83451B0012970F /* ShapeCalculator.m in Sources */,
 				4C01DCD12B6B47DC0017CC04 /* MyObjectiveCClass.m in Sources */,
@@ -377,13 +456,16 @@
 				4CE4D6F52B8345280012970F /* Circle.m in Sources */,
 				4C01DCE82B6C42AB0017CC04 /* SingletonInSwift.swift in Sources */,
 				4C4D085E2B7FA64D000EFCA1 /* UIKitViewControllerWrapper.swift in Sources */,
+				4CE4D7292B83D9650012970F /* MessageSender.m in Sources */,
 				4C01DCBC2B6AFBE50017CC04 /* AppDelegate.swift in Sources */,
 				4C01DCD42B6B5E6E0017CC04 /* MySwiftClass.swift in Sources */,
 				4C01DCDB2B6BCD470017CC04 /* TaskHandler.swift in Sources */,
 				4C4D08602B7FA664000EFCA1 /* ContentView.swift in Sources */,
+				4CE4D72D2B83DA520012970F /* DependencyInversionPrinciple.m in Sources */,
 				4CE4D7122B83D4290012970F /* FlyingBird.m in Sources */,
 				4C01DCD92B6BCD180017CC04 /* TaskManager.swift in Sources */,
 				4CE4D7072B83CD610012970F /* LiskovSubstitutionPrinciple.m in Sources */,
+				4CE4D7212B83D74B0012970F /* InterfaceSegregationPrinciple.m in Sources */,
 				4CE4D6E22B833E180012970F /* UserDataFetcher.m in Sources */,
 				4CE4D7022B83CCF60012970F /* Vehicle.m in Sources */,
 				4C01DCBE2B6AFBE50017CC04 /* SceneDelegate.swift in Sources */,

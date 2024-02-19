@@ -22,7 +22,9 @@ class UIKitViewController: UIViewController {
         
         //self.demoSRPInObjC()
         //self.demoOCPinObjC()
-        self.demoLSPInObjC()
+        //self.demoLSPInObjC()
+        //self.demoISPInObjC()
+        self.demoDIPInObjC()
     }
 
     func useMySwiftClass() {
@@ -79,5 +81,16 @@ class UIKitViewController: UIViewController {
         
         instance.getFlyingBird()
         instance.getSwimmingPenguin()
+    }
+    
+    func demoISPInObjC() {
+        let instance = InterfaceSegregationPrinciple()
+        instance.getProgrammerTasks()
+        instance.getDesignerTasks()
+    }
+    func demoDIPInObjC() {
+        let instance = DependencyInversionPrinciple()
+        instance.getMessageSender()
+        instance.getMockMessageSender()
     }
 }
