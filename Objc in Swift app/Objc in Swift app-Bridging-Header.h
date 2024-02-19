@@ -4,3 +4,5 @@
 
 #import "MyObjectiveCClass.h"
 #import "MiddleLayer.h"
+#import "SingleResponsibilityPrinciple.h"
+#import "OpenClosePrinciple.h"

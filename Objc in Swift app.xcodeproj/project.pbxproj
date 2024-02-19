@@ -21,7 +21,29 @@
 		4C01DCE82B6C42AB0017CC04 /* SingletonInSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01DCE72B6C42AB0017CC04 /* SingletonInSwift.swift */; };
 		4C4D085E2B7FA64D000EFCA1 /* UIKitViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D085D2B7FA64D000EFCA1 /* UIKitViewControllerWrapper.swift */; };
 		4C4D08602B7FA664000EFCA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D085F2B7FA664000EFCA1 /* ContentView.swift */; };
+		4CE4D6E02B833DEB0012970F /* UserProfileDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D6DF2B833DEB0012970F /* UserProfileDisplayer.m */; };
+		4CE4D6E22B833E180012970F /* UserDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D6E12B833E180012970F /* UserDataFetcher.m */; };
+		4CE4D6E42B833E420012970F /* UserPreferencesSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D6E32B833E420012970F /* UserPreferencesSaver.m */; };
+		4CE4D6EC2B8343270012970F /* Single Responsibility Principle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D6EB2B8343270012970F /* Single Responsibility Principle.m */; };
+		4CE4D6F32B83451B0012970F /* ShapeCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D6F22B83451B0012970F /* ShapeCalculator.m */; };
+		4CE4D6F52B8345280012970F /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D6F42B8345280012970F /* Circle.m */; };
+		4CE4D6F72B8345350012970F /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D6F62B8345350012970F /* Rectangle.m */; };
+		4CE4D6FA2B8345E40012970F /* Open Close Principle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D6F92B8345E40012970F /* Open Close Principle.m */; };
+		4CE4D6FD2B83469C0012970F /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4D6FC2B83469C0012970F /* Triangle.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C4D09162B8269BE000EFCA1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4C01DCB82B6AFBE50017CC04 /* Objc in Swift app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objc in Swift app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +68,25 @@
 		4C01DCE72B6C42AB0017CC04 /* SingletonInSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonInSwift.swift; sourceTree = "<group>"; };
 		4C4D085D2B7FA64D000EFCA1 /* UIKitViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewControllerWrapper.swift; sourceTree = "<group>"; };
 		4C4D085F2B7FA664000EFCA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CE4D6DF2B833DEB0012970F /* UserProfileDisplayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProfileDisplayer.m; sourceTree = "<group>"; };
+		4CE4D6E12B833E180012970F /* UserDataFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDataFetcher.m; sourceTree = "<group>"; };
+		4CE4D6E32B833E420012970F /* UserPreferencesSaver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPreferencesSaver.m; sourceTree = "<group>"; };
+		4CE4D6E72B833E8C0012970F /* UserProfileDisplayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProfileDisplayer.h; sourceTree = "<group>"; };
+		4CE4D6E82B833ECB0012970F /* UserDataFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDataFetcher.h; sourceTree = "<group>"; };
+		4CE4D6E92B833EF20012970F /* UserPreferencesSaver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPreferencesSaver.h; sourceTree = "<group>"; };
+		4CE4D6EA2B8343190012970F /* SingleResponsibilityPrinciple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleResponsibilityPrinciple.h; sourceTree = "<group>"; };
+		4CE4D6EB2B8343270012970F /* Single Responsibility Principle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Single Responsibility Principle.m"; sourceTree = "<group>"; };
+		4CE4D6EE2B8344E90012970F /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		4CE4D6EF2B8344FA0012970F /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		4CE4D6F02B8345040012970F /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		4CE4D6F12B83450E0012970F /* ShapeCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeCalculator.h; sourceTree = "<group>"; };
+		4CE4D6F22B83451B0012970F /* ShapeCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeCalculator.m; sourceTree = "<group>"; };
+		4CE4D6F42B8345280012970F /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		4CE4D6F62B8345350012970F /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		4CE4D6F82B8345DA0012970F /* OpenClosePrinciple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenClosePrinciple.h; sourceTree = "<group>"; };
+		4CE4D6F92B8345E40012970F /* Open Close Principle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Open Close Principle.m"; sourceTree = "<group>"; };
+		4CE4D6FB2B8346900012970F /* Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		4CE4D6FC2B83469C0012970F /* Triangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +183,8 @@
 		4C4D08642B7FA78E000EFCA1 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				4CE4D6ED2B8344A60012970F /* Open Close Principle (OCP) */,
+				4CE4D6DD2B833CAE0012970F /* Single Responsibility Principle(SRP) */,
 				4C4D08622B7FA758000EFCA1 /* MyObjectiveCClass */,
 				4C4D08632B7FA762000EFCA1 /* MiddleLayer */,
 				4C01DCDD2B6C3E480017CC04 /* DelegateInObjC */,
@@ -159,6 +202,39 @@
 			path = Swift;
 			sourceTree = "<group>";
 		};
+		4CE4D6DD2B833CAE0012970F /* Single Responsibility Principle(SRP) */ = {
+			isa = PBXGroup;
+			children = (
+				4CE4D6EA2B8343190012970F /* SingleResponsibilityPrinciple.h */,
+				4CE4D6EB2B8343270012970F /* Single Responsibility Principle.m */,
+				4CE4D6E72B833E8C0012970F /* UserProfileDisplayer.h */,
+				4CE4D6DF2B833DEB0012970F /* UserProfileDisplayer.m */,
+				4CE4D6E82B833ECB0012970F /* UserDataFetcher.h */,
+				4CE4D6E12B833E180012970F /* UserDataFetcher.m */,
+				4CE4D6E92B833EF20012970F /* UserPreferencesSaver.h */,
+				4CE4D6E32B833E420012970F /* UserPreferencesSaver.m */,
+			);
+			path = "Single Responsibility Principle(SRP)";
+			sourceTree = "<group>";
+		};
+		4CE4D6ED2B8344A60012970F /* Open Close Principle (OCP) */ = {
+			isa = PBXGroup;
+			children = (
+				4CE4D6F82B8345DA0012970F /* OpenClosePrinciple.h */,
+				4CE4D6F92B8345E40012970F /* Open Close Principle.m */,
+				4CE4D6EE2B8344E90012970F /* Shape.h */,
+				4CE4D6F12B83450E0012970F /* ShapeCalculator.h */,
+				4CE4D6F22B83451B0012970F /* ShapeCalculator.m */,
+				4CE4D6EF2B8344FA0012970F /* Rectangle.h */,
+				4CE4D6F62B8345350012970F /* Rectangle.m */,
+				4CE4D6F02B8345040012970F /* Circle.h */,
+				4CE4D6F42B8345280012970F /* Circle.m */,
+				4CE4D6FB2B8346900012970F /* Triangle.h */,
+				4CE4D6FC2B83469C0012970F /* Triangle.m */,
+			);
+			path = "Open Close Principle (OCP)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +245,7 @@
 				4C01DCB42B6AFBE50017CC04 /* Sources */,
 				4C01DCB52B6AFBE50017CC04 /* Frameworks */,
 				4C01DCB62B6AFBE50017CC04 /* Resources */,
+				4C4D09162B8269BE000EFCA1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,11 +306,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE4D6FA2B8345E40012970F /* Open Close Principle.m in Sources */,
+				4CE4D6FD2B83469C0012970F /* Triangle.m in Sources */,
+				4CE4D6EC2B8343270012970F /* Single Responsibility Principle.m in Sources */,
+				4CE4D6E02B833DEB0012970F /* UserProfileDisplayer.m in Sources */,
 				4C01DCD62B6BC9C10017CC04 /* MiddleLayer.m in Sources */,
+				4CE4D6F32B83451B0012970F /* ShapeCalculator.m in Sources */,
 				4C01DCD12B6B47DC0017CC04 /* MyObjectiveCClass.m in Sources */,
+				4CE4D6E42B833E420012970F /* UserPreferencesSaver.m in Sources */,
 				4C01DCE62B6C3F170017CC04 /* TaskManager.m in Sources */,
 				4C01DCE42B6C3EDC0017CC04 /* TaskHandler.m in Sources */,
 				4C01DCC02B6AFBE50017CC04 /* UIKitViewController.swift in Sources */,
+				4CE4D6F52B8345280012970F /* Circle.m in Sources */,
 				4C01DCE82B6C42AB0017CC04 /* SingletonInSwift.swift in Sources */,
 				4C4D085E2B7FA64D000EFCA1 /* UIKitViewControllerWrapper.swift in Sources */,
 				4C01DCBC2B6AFBE50017CC04 /* AppDelegate.swift in Sources */,
@@ -241,7 +325,9 @@
 				4C01DCDB2B6BCD470017CC04 /* TaskHandler.swift in Sources */,
 				4C4D08602B7FA664000EFCA1 /* ContentView.swift in Sources */,
 				4C01DCD92B6BCD180017CC04 /* TaskManager.swift in Sources */,
+				4CE4D6E22B833E180012970F /* UserDataFetcher.m in Sources */,
 				4C01DCBE2B6AFBE50017CC04 /* SceneDelegate.swift in Sources */,
+				4CE4D6F72B8345350012970F /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,7 +18,10 @@ class UIKitViewController: UIViewController {
 //        self.demoDelegatioInSwift()
 //        self.demoDelegationInObjC()
 
-         SingletonInSwift.shared.doSingletonthing()
+         //SingletonInSwift.shared.doSingletonthing()
+        
+        //self.demoSRPInObjC()
+        self.demoOCPinObjC()
     }
 
     func useMySwiftClass() {
@@ -54,5 +57,17 @@ class UIKitViewController: UIViewController {
     func demoDelegationInObjC() {
         let instance = MiddleLayer()
         instance.demoDelegatioInObjC()
+    }
+    
+    func demoSRPInObjC() {
+        let instance = SingleResponsibilityPrinciple()
+        instance.demoSRPInObjC()
+    }
+    
+    func demoOCPinObjC() {
+        let instance = OpenClosePrinciple()
+        instance.getRectangleArea()
+        instance.getCircleArea()
+        instance.getTriangleArea()
     }
 }
