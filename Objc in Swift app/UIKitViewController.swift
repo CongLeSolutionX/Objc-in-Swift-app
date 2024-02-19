@@ -21,7 +21,8 @@ class UIKitViewController: UIViewController {
          //SingletonInSwift.shared.doSingletonthing()
         
         //self.demoSRPInObjC()
-        self.demoOCPinObjC()
+        //self.demoOCPinObjC()
+        self.demoLSPInObjC()
     }
 
     func useMySwiftClass() {
@@ -69,5 +70,14 @@ class UIKitViewController: UIViewController {
         instance.getRectangleArea()
         instance.getCircleArea()
         instance.getTriangleArea()
+    }
+    
+    func demoLSPInObjC() {
+        let instance = LiskovSubstitutionPrinciple()
+        instance.getRegularCarReady()
+        instance.getElectricCarReady()
+        
+        instance.getFlyingBird()
+        instance.getSwimmingPenguin()
     }
 }
